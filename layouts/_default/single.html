@@ -12,6 +12,7 @@
         <div id="comments-container">
             {{ template "_internal/disqus.html" . }}
             {{ template "partials/commento.html" . }}
+            {{ partial "comments.html" . }}
         </div>
     {{ end }}
 
